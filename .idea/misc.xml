@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/drawable-v24/ic_add.xml" value="0.202" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/drawable-v24/ic_analytics.xml" value="0.202" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/drawable-v24/ic_education.xml" value="0.202" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/drawable-v24/ic_health.xml" value="0.202" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/drawable-v24/ic_home.xml" value="0.202" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/drawable-v24/ic_house.xml" value="0.202" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/drawable-v24/ic_person.xml" value="0.224" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/drawable-v24/ic_person_account.xml" value="0.224" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/drawable-v24/ic_personalcare.xml" value="0.224" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/drawable-v24/ic_settings.xml" value="0.224" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/drawable-v24/ic_transport.xml" value="0.224" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/drawable/alert.xml" value="0.237" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/layout/activity_account.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/layout/activity_analytic.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/layout/activity_daily.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/layout/activity_daily_analysis.xml" value="0.264" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/layout/activity_expense.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/layout/activity_history.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/layout/activity_login.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/layout/activity_main.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/layout/activity_monthly_analytics.xml" value="0.245018115942029" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/layout/activity_singup.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/layout/activity_splash.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/layout/activity_todat.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/layout/activity_today.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/layout/activity_week.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/layout/activity_weekly_analytics.xml" value="0.245018115942029" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/layout/incomelayout.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/layout/input_layout.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/layout/retreve_data.xml" value="0.23796296296296296" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/layout/update_layout.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/menu/menu.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.202" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/mipmap-anydpi-v26/ic_launcher2.xml" value="0.219" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/mipmap-anydpi-v26/ic_launcher_circle.xml" value="0.219" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

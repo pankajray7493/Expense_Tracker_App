@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ExpenseTracker" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#0c9e4e</item>
+        <item  name="colorPrimaryDark">#087C3D</item>
+        <item name="colorAccent" > #03DAC5</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#fff</item>
+        <item name="colorSecondaryVariant">#EDEDED</item>
+        <item name="colorOnSecondary">#0c9e4e</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">#087C3D</item>
+
+    </style>
+</resources>

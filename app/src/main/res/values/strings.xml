@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Expense Tracker</string>
+
+    <string-array name="Items">
+        <item>Select Item ↓ </item>
+        <item>Transport</item>
+        <item>Food</item>
+        <item>House</item>
+        <item>Entertainment</item>
+        <item>Education</item>
+        <item>Charity</item>
+        <item>Health</item>
+        <item>Personal</item>
+        <item>Others</item>
+
+    </string-array>
+    <string-array name="income_way">
+        <item>Select Types ↓ </item>
+        <item>Salary</item>
+        <item>Pocket Money</item>
+        <item>Bonus</item>
+        <item>Others</item>
+
+    </string-array>
+
+</resources>
