@@ -88,6 +88,10 @@ public class LoginActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        if (auth.getCurrentUser() != null){
+            Intent intent = new Intent(LoginActivity.this,MainActivity.class);
+            startActivity(intent);
+        }
 
     }
     public void onBackPressed() {

@@ -10,6 +10,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
+        android:layout_margin="5dp"
         android:layout_height="wrap_content">
 
         <LinearLayout
@@ -32,6 +33,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="₹0"
+                android:layout_marginTop="1dp"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:id="@+id/amount"
@@ -42,6 +44,7 @@
                 android:layout_height="wrap_content"
                 android:text="Note"
                 android:textStyle="bold"
+                android:layout_marginTop="1dp"
                 android:textColor="@color/black"
                 android:id="@+id/note1"
                 android:textSize="18sp"
@@ -50,6 +53,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Date"
+                android:layout_marginTop="1dp"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:id="@+id/date"

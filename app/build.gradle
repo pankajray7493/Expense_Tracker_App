@@ -12,7 +12,7 @@ android {
         targetSdk 32
         versionCode 1
         versionName "1.0"
-       // multiDeskEnabled true
+      //  multiDeskEnabled true
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -38,8 +38,10 @@ dependencies {
     implementation 'com.google.firebase:firebase-database:20.0.4'
     implementation 'joda-time:joda-time:2.10.6'
 
-    implementation 'com.github.AnyChart:AnyChart-Android:1.1.4'
- //   implementation("androidx.multidex:multidex:2.0.1")
+  //  implementation 'com.github.AnyChart:AnyChart-Android:1.1.4'
+  //  implementation("androidx.multidex:multidex:2.0.1")
+
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
 
     implementation 'com.firebaseui:firebase-ui-database:8.0.1'
     implementation 'com.google.firebase:firebase-database:19.3.1'

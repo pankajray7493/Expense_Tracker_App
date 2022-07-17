@@ -143,7 +143,7 @@ public class ExpenseActivity extends AppCompatActivity {
 
                 }
                 else {
-                    loader.setMessage("Adding a expense item");
+                    loader.setMessage("Adding a Income item");
                     loader.setCanceledOnTouchOutside(true);
                     loader.show();
 
@@ -167,7 +167,7 @@ public class ExpenseActivity extends AppCompatActivity {
                         @Override
                         public void onComplete(@NonNull Task<Void> task) {
                             if (task.isSuccessful()){
-                            Toast.makeText(ExpenseActivity.this, "Expense Item Added", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(ExpenseActivity.this, "Income Item Added", Toast.LENGTH_SHORT).show();
                         }
                         else{
                                 Toast.makeText(ExpenseActivity.this, task.getException().toString(), Toast.LENGTH_SHORT).show();
@@ -207,7 +207,7 @@ public class ExpenseActivity extends AppCompatActivity {
             protected void onBindViewHolder(@NonNull myViewholder holder, int position, @NonNull Data model) {
                 holder.setamount("Amount:  ₹"+ model.getAmount());
                 holder.setdate("On:  "+model.getDate());
-                holder.setitem("Item:  "+model.getItem());
+                holder.setitem("Income Type:  "+model.getItem());
 
                 holder.note.setVisibility(View.GONE);
 

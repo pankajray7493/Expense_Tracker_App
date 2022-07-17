@@ -38,6 +38,30 @@
         <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.202" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/mipmap-anydpi-v26/ic_launcher2.xml" value="0.219" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenceTracker/app/src/main/res/mipmap-anydpi-v26/ic_launcher_circle.xml" value="0.219" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTracker/app/src/main/res/drawable/alert.xml" value="0.219" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTracker/app/src/main/res/drawable/edges.xml" value="0.219" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTracker/app/src/main/res/drawable/personpic.xml" value="0.219" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTracker/app/src/main/res/drawable/signuppic.xml" value="0.219" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTracker/app/src/main/res/drawable/vpnkey.xml" value="0.219" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/activity_account.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/activity_analytic.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/activity_daily.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/activity_daily_analysis.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/activity_day_expenses.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/activity_expense.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/activity_history.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/activity_login.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/activity_main.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/activity_monthly_analytics.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/activity_singup.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/activity_splash.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/activity_today_analysis.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/activity_week.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/activity_weekly_analytics.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/incomelayout.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/input_layout.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/retreve_data.xml" value="0.2515625" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/ExpenseTracker/app/src/main/res/layout/update_layout.xml" value="0.2515625" />
       </map>
     </option>
   </component>

@@ -96,6 +96,7 @@
                     android:layout_marginTop="2dp"
                     android:layout_marginEnd="2dp"
                     android:layout_marginBottom="2dp"
+                    android:background="@drawable/edges"
                     android:text="Save"
                     android:textAllCaps="false"
                     android:textStyle="bold" />

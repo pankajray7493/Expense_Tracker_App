@@ -54,9 +54,9 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    int sumexpenses = 0;
-    int sumincome = 0;
-    int saving = 0;
+//    int sumexpenses = 0;
+//    int sumincome = 0;
+//    int saving = 0;
 
 
 
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
         txt2 = findViewById(R.id.textView2);
         txt3 = findViewById(R.id.textView3);
         txt4 = findViewById(R.id.textView4);
-//        txt5 = findViewById(R.id.textView5);
+        txt5 = findViewById(R.id.textView5);
 
         mAuth = FirebaseAuth.getInstance();
         userid = FirebaseAuth.getInstance().getCurrentUser().getUid();
@@ -143,9 +143,9 @@ public class MainActivity extends AppCompatActivity {
                         ttlamountbudgetD += ptotal;
                     }
                     ttlamountbudgetC = ttlamountbudgetD;
+
                 } else {
                     personalref.child("budget").setValue(0);
-                    Toast.makeText(MainActivity.this, "Please Set Income", Toast.LENGTH_SHORT).show();
                 }
 
             }
@@ -160,7 +160,7 @@ public class MainActivity extends AppCompatActivity {
         getTodaySpentAmount();
         getWeekSpentAmount();
         getMonthSpentAmount();
-       // getSavings();
+        getSavings();
 
 
     }
@@ -169,19 +169,21 @@ public class MainActivity extends AppCompatActivity {
         budgetref.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-
+                int total1=0;
                 if (snapshot.exists() && snapshot.getChildrenCount() > 0) {
                     for (DataSnapshot ds : snapshot.getChildren()) {
                         Map<String, Object> map = (Map<String, Object>) ds.getValue();
                         Object total = map.get("amount");
                         int ptotal = Integer.parseInt(String.valueOf(total));
-                        ttlamountbudget += ptotal;
-                        sumincome = ptotal;
-                        txt1.setText("₹ " + String.valueOf(ttlamountbudget));
+                        total1 += ptotal;
+                        txt1.setText("₹ " + String.valueOf(total1));
+
                     }
+                    personalref.child("budget").setValue(total1);
                 } else {
                     ttlamountbudget = 0;
                     txt1.setText("₹ " + String.valueOf(0));
+                    personalref.child("budget").setValue(0);
                 }
             }
 
@@ -218,6 +220,12 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+
+
+
+
+
 
     }
 
@@ -275,7 +283,6 @@ public class MainActivity extends AppCompatActivity {
                     totalamount += ptotal;
 
                     txt4.setText("₹ " + totalamount);
-                    sumexpenses = totalamount;
 
                 }
                 personalref.child("month").setValue(totalamount);
@@ -289,6 +296,35 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+    }
+    private void getSavings(){
+        personalref.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                if (snapshot.exists()){
+                    int budget;
+                    if (snapshot.hasChild("budget")){
+                        budget=Integer.parseInt(snapshot.child("budget").getValue().toString());
+                    }else {
+                        budget=0;
+                    }
+                    int monthspending=0;
+                    if (snapshot.hasChild("month")){
+                        monthspending=Integer.parseInt(Objects.requireNonNull(snapshot.child("month").getValue().toString()));
+                    }else {
+                        monthspending=0;
+                    }
+                    int saving = budget-monthspending;
+                    txt5.setText("₹ " +saving);
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+                Toast.makeText(MainActivity.this, error.getMessage(), Toast.LENGTH_SHORT).show();
+            }
+        });
+
     }
 
 

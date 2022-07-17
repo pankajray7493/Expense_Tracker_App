@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/grayBackground"
     tools:context=".DailyAnalysisActivity">
 
     <LinearLayout
@@ -25,6 +24,7 @@
         android:text="Total Amount Spent:" />
 
     <LinearLayout
+        android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
@@ -81,6 +81,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
             android:orientation="vertical">
 
             <RelativeLayout
@@ -112,28 +113,7 @@
                         android:textColor="#000"
                         android:id="@+id/analyticsTransportAmount"
                         />
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
 
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="2"
-                            android:text="status"
-                            android:textSize="12sp"
-                            android:textColor="#000"
-                            android:id="@+id/progress_ratio_transport"
-                            />
-                        <ImageView
-                            android:id="@+id/status_Image_transport"
-                            android:layout_width="0dp"
-                            android:layout_weight="1"
-                            android:layout_height="18dp"
-                            android:layout_marginTop="5dp"
-                            />
-                    </LinearLayout>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -183,28 +163,7 @@
                         android:textColor="#000"
                         android:id="@+id/analyticsFoodAmount"
                         />
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
 
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="2"
-                            android:text="status"
-                            android:textSize="12sp"
-                            android:textColor="#000"
-                            android:id="@+id/progress_ratio_food"
-                            />
-                        <ImageView
-                            android:id="@+id/status_Image_food"
-                            android:layout_width="0dp"
-                            android:layout_weight="1"
-                            android:layout_height="18dp"
-                            android:layout_marginTop="5dp"
-                            />
-                    </LinearLayout>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -254,28 +213,7 @@
                         android:textColor="#000"
                         android:id="@+id/analyticsHouseExpensesAmount"
                         />
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
 
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="2"
-                            android:text="status"
-                            android:textSize="12sp"
-                            android:textColor="#000"
-                            android:id="@+id/progress_ratio_house"
-                            />
-                        <ImageView
-                            android:id="@+id/status_Image_house"
-                            android:layout_width="0dp"
-                            android:layout_weight="1"
-                            android:layout_height="18dp"
-                            android:layout_marginTop="5dp"
-                            />
-                    </LinearLayout>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -326,28 +264,7 @@
                         android:textColor="#000"
                         android:id="@+id/analyticsEntertainmentAmount"
                         />
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
 
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="2"
-                            android:text="status"
-                            android:textSize="12sp"
-                            android:textColor="#000"
-                            android:id="@+id/progress_ratio_ent"
-                            />
-                        <ImageView
-                            android:id="@+id/status_Image_ent"
-                            android:layout_width="0dp"
-                            android:layout_weight="1"
-                            android:layout_height="18dp"
-                            android:layout_marginTop="5dp"
-                            />
-                    </LinearLayout>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -397,28 +314,7 @@
                         android:textColor="#000"
                         android:id="@+id/analyticsEducationAmount"
                         />
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
 
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="2"
-                            android:text="status"
-                            android:textSize="12sp"
-                            android:textColor="#000"
-                            android:id="@+id/progress_ratio_edu"
-                            />
-                        <ImageView
-                            android:id="@+id/status_Image_edu"
-                            android:layout_width="0dp"
-                            android:layout_weight="1"
-                            android:layout_height="18dp"
-                            android:layout_marginTop="5dp"
-                            />
-                    </LinearLayout>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -468,28 +364,7 @@
                         android:textColor="#000"
                         android:id="@+id/analyticsCharityAmount"
                         />
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
 
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="2"
-                            android:text="status"
-                            android:textSize="12sp"
-                            android:textColor="#000"
-                            android:id="@+id/progress_ratio_cha"
-                            />
-                        <ImageView
-                            android:id="@+id/status_Image_cha"
-                            android:layout_width="0dp"
-                            android:layout_weight="1"
-                            android:layout_height="18dp"
-                            android:layout_marginTop="5dp"
-                            />
-                    </LinearLayout>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -542,28 +417,7 @@
                         android:id="@+id/analyticsHealthAmount"
                         />
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
 
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="2"
-                            android:text="status"
-                            android:textSize="12sp"
-                            android:textColor="#000"
-                            android:id="@+id/progress_ratio_hea"
-                            />
-                        <ImageView
-                            android:id="@+id/status_Image_hea"
-                            android:layout_width="0dp"
-                            android:layout_weight="1"
-                            android:layout_height="18dp"
-                            android:layout_marginTop="5dp"
-                            />
-                    </LinearLayout>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -612,28 +466,6 @@
                         android:textColor="#000"
                         android:id="@+id/analyticsPersonalExpensesAmount"
                         />
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="2"
-                            android:text="status"
-                            android:textSize="12sp"
-                            android:textColor="#000"
-                            android:id="@+id/progress_ratio_per"
-                            />
-                        <ImageView
-                            android:id="@+id/status_Image_per"
-                            android:layout_width="0dp"
-                            android:layout_weight="1"
-                            android:layout_height="18dp"
-                            android:layout_marginTop="5dp"
-                            />
-                    </LinearLayout>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -684,29 +516,7 @@
                         android:id="@+id/analyticsOtherAmount"
                         />
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
 
-                        <TextView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="2"
-                            android:text="status"
-                            android:textSize="12sp"
-                            android:textColor="#000"
-                            android:id="@+id/progress_ratio_oth"
-                            />
-                        <ImageView
-                            android:id="@+id/status_Image_oth"
-                            android:layout_width="0dp"
-                            android:layout_weight="1"
-                            android:layout_height="18dp"
-                            android:layout_marginTop="5dp"
-
-                            />
-                    </LinearLayout>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -728,10 +538,16 @@
             </RelativeLayout>
 
 
-                <com.anychart.AnyChartView
-                    android:layout_width="match_parent"
-                    android:layout_height="600dp"
-                    android:id="@+id/anychart"/>
+            <com.github.mikephil.charting.charts.PieChart
+                android:layout_width="match_parent"
+                android:layout_height="600dp"
+                android:layout_margin="10dp"
+                android:id="@+id/piechart"
+                />
+<!--                <com.anychart.AnyChartView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="600dp"-->
+<!--                    android:id="@+id/anychart"/>-->
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -765,27 +581,7 @@
                         android:id="@+id/monthspentamount1"
                         android:textColor="@color/black"/>
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
 
-                            <TextView
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="2"
-                                android:text="Status"
-                                android:textSize="12sp"
-                                android:textColor="@color/black"
-                                android:id="@+id/monthspending"/>
-
-                            <ImageView
-                                android:layout_width="0dp"
-                                android:layout_height="15dp"
-                                android:layout_weight="1"
-                                android:layout_marginTop="5dp"
-                                android:id="@+id/monthspendingimg"/>
-                        </LinearLayout>
 
                         <TextView
                             android:layout_width="match_parent"

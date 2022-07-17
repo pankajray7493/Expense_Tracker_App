@@ -23,9 +23,9 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class SingupActivity extends AppCompatActivity {
 
-    private EditText email,password;
+    private EditText email,password,user;
     private Button singup;
-    private TextView login,user;
+    private TextView login;
 
     private FirebaseAuth auth;
     private ProgressDialog progressDialog;
@@ -41,7 +41,9 @@ public class SingupActivity extends AppCompatActivity {
         singup = findViewById(R.id.btnsingup);
         login = findViewById(R.id.singin);
         user = findViewById(R.id.user);
+        database=FirebaseDatabase.getInstance();
 
+        getSupportActionBar().hide();
 
         auth = FirebaseAuth.getInstance();
         progressDialog =new ProgressDialog(this);
@@ -52,6 +54,11 @@ public class SingupActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String st = email.getText().toString();
                 String pass = password.getText().toString();
+                String name = user.getText().toString();
+
+                if (TextUtils.isEmpty(name)){
+                    user.setError("Name is Required");
+                }
 
                 if (TextUtils.isEmpty(st)){
                     email.setError("Email is Required");
@@ -69,6 +76,11 @@ public class SingupActivity extends AppCompatActivity {
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (task.isSuccessful()) {
 
+                                Data data = new Data(user.getText().toString(), email.getText().toString(),
+                                        password.getText().toString());
+
+                                String id = task.getResult().getUser().getUid();
+                                database.getReference().child("User").child(id).setValue(data);
 
                                 Intent intent = new Intent(SingupActivity.this, MainActivity.class);
                                 startActivity(intent);
@@ -92,10 +104,7 @@ public class SingupActivity extends AppCompatActivity {
             }
         });
 
-        if (auth.getCurrentUser() != null){
-            Intent intent = new Intent(SingupActivity.this,MainActivity.class);
-            startActivity(intent);
-        }
+
 
     }
     public void onBackPressed() {

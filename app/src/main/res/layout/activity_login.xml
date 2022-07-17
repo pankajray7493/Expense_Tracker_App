@@ -35,7 +35,9 @@
             android:textColor="@color/black"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:background="@color/white"
+            android:background="@drawable/edges"
+            android:drawableLeft="@drawable/personpic"
+            android:drawablePadding="10dp"
             android:ems="10"
             android:hint="Enter Your Email"
             android:inputType="textEmailAddress"
@@ -49,9 +51,11 @@
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:layout_margin="5dp"
-            android:background="@color/white"
+            android:background="@drawable/edges"
             android:ems="10"
             android:hint="Enter Password"
+            android:drawableLeft="@drawable/vpnkey"
+            android:drawablePadding="10dp"
             android:inputType="textPassword"
             android:minHeight="48dp"
             android:padding="10dp"
@@ -62,10 +66,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:textColor="@color/black"
+            android:textColor="#F8D805"
             android:gravity="right"
             android:textStyle="bold"
-            android:textSize="15sp"
+            android:textSize="17sp"
             android:text="Create New Account" />
 
         <Button
@@ -73,11 +77,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:background="@color/whatsAppColor"
+            android:background="@drawable/edges"
             android:minHeight="48dp"
             android:padding="10dp"
+            android:textStyle="bold"
             android:text="login"
-            android:textColor="#212121" />
+            android:textColor="@color/white" />
 
 
     </LinearLayout>
