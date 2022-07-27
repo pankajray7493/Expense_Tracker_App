@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/totaltodayexpense"
             android:text="Total Expenses Today ₹0"
-            android:textColor="@color/black"
+            android:textColor="@color/red"
             android:gravity="center"
             android:textStyle="bold"
             android:textSize="20sp"

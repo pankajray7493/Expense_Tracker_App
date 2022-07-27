@@ -138,7 +138,7 @@ public class ExpenseActivity extends AppCompatActivity {
                     amount.setError("Amount is require");
                     return;
                 }
-                if (expensetype.equals("Select Item")){
+                if (expensetype.equals("Select Types ↓")){
                     Toast.makeText(ExpenseActivity.this, "Select a valid item", Toast.LENGTH_SHORT).show();
 
                 }

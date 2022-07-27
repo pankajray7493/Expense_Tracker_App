@@ -30,10 +30,11 @@
             android:layout_height="30dp"
             android:gravity="center"
             android:layout_marginTop="10dp"
+            android:textAlignment="center"
             android:id="@+id/item"
             android:entries="@array/Items"
             android:layout_gravity="center"
-            android:background="@color/white">
+            android:background="@color/lightGrey">
         </Spinner>
 
             <EditText

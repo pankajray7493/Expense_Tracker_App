@@ -165,9 +165,9 @@ public class DailyActivity extends AppCompatActivity { //Today spand
                     amount.setError("Amount is require");
                     return;
                 }
-                if (Item.equals("Select Item")){
+                if (Item.equals("Select Types ↓")){
                     Toast.makeText(DailyActivity.this, "Select a valid item", Toast.LENGTH_SHORT).show();
-
+                    return;
                 }
                 if (TextUtils.isEmpty(notes)){
                     note.setError("Notes is required");
